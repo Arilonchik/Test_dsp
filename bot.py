@@ -22,7 +22,7 @@ def start(update, context):
     user = update.message.from_user
     if user.id not in users_data.keys():
         users_data[user.id] = {'audio': [], 'photos': []}
-    update.message.reply_text('Работаем')
+    update.message.reply_text("I'm working, send me messages")
 
 
 def take_photo(update, context):
