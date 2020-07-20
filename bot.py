@@ -50,7 +50,7 @@ def take_audio(update, context):
     count = len(users_data[us_id]['audio'])
 
     # Это часть кода которая должна конвертировать сообщения в wav с определенной частотой дискретизации
-    # Однако у меня проблемы с либой ogg...
+    # Однако у меня проблемы с либой для ogg, которую я физически не могу решить в данный момент
     """
     filepath = './voices/tmp' + str(us_id) + '.ogg'
     sound.download(filepath)
